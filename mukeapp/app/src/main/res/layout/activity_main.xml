@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.example.yassarchohan.mukeapp.MainActivity">
+
+    <TextView
+        android:onClick="colorlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:background="#F44336"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:onClick="familylistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="family"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:background="#7B1FA2"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:onClick="numberslistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:background="#1E88E5"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:onClick="phraseslistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:background="#C0CA33"
+        android:textSize="24sp"/>
+</LinearLayout>
